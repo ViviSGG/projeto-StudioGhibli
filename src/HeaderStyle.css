@@ -1,0 +1,31 @@
+/* css não precisa exportar */
+header {
+    display: flex;
+    /* background-color: chocolate; */
+    justify-content: center;
+}
+
+header section {
+    display: flex;
+    width: 80vw;
+    /* border: 2px solid white; */
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+.logo {
+    width: 160px;
+}
+
+.lista {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+a {
+    display: flex;
+    align-items: center;
+}
