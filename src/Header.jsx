@@ -16,10 +16,10 @@ function Header () {
                     </div>
                     <nav>
                         <ul className="lista">
-                            <li><a href=""><img src={facebook} alt="" /></a></li>
-                            <li><a href=""><img src={instagram} alt="" /></a></li>
-                            <li><a href=""><img src={twitter} alt="" /></a></li>
-                            <li><a href=""><img src={youtube} alt="" /></a></li>
+                            <li><a href=""><img id="face" src={facebook} alt="" /></a></li>
+                            <li><a href=""><img id="insta" src={instagram} alt="" /></a></li>
+                            <li><a href=""><img id="tt" src={twitter} alt="" /></a></li>
+                            <li><a href=""><img id="youtube" src={youtube} alt="" /></a></li>
                         </ul>
                     </nav>
                 </section>

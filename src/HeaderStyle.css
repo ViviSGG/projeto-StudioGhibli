@@ -29,3 +29,19 @@ a {
     display: flex;
     align-items: center;
 }
+
+#face:hover {
+    transform: scale(1.2);
+}
+
+#insta:hover {
+    transform: scale(1.2);
+}
+
+#tt:hover {
+    transform: scale(1.2);
+}
+
+#youtube:hover {
+    transform: scale(1.2);
+}

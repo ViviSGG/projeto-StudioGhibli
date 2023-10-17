@@ -56,9 +56,21 @@ h1 {
     width: 225px;
     height: 45px;
     background-color: rgba(255, 255, 255, 0);
-    border: 2px solid white;
+    border: 2px solid #658E76;
     color: white;
     transform: skew(-24deg); /*responsável por inclinar o botão*/
+}
+
+.div-buttons button p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.div-buttons button:hover {
+    background-color: #658E76
+    ;
 }
 
 .div-buttons p {
@@ -73,6 +85,16 @@ main figure {
     /* border: solid 2px yellow; */
 }
 
+@keyframes animacao {
+    0%{margin-bottom: 0;}
+    50% {margin-bottom: 40px;}
+    100%{margin-bottom: 0;}
+}
+
 .banner {
     width: 30vw;
+    animation-name: animacao;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
 }
